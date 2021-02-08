@@ -37,7 +37,7 @@ export const SearchForm: React.FC<IProps> = ({ history }) => {
   return (
     <div className="search-form">
       <input
-        defaultValue={value}
+        value={value}
         onChange={inputChange}
         onKeyPress={onKeyPress}
         className={inputStyle}

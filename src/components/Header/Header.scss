@@ -28,3 +28,24 @@
     }
   }
 }
+
+
+@media (max-width: 680px) {
+  .header-container {
+    .text-logo {
+      .logo {
+        height: 60%;
+      }
+
+      .logo-container {
+        .text {
+          line-height: 0.6rem;
+        }
+
+        .requestum {
+          font-size: 1.5rem;
+        }
+      }
+    }
+  }
+}
