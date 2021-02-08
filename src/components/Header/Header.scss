@@ -1,0 +1,30 @@
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  color: rgb(255, 255, 214);
+  border-bottom: 1px solid antiquewhite;
+  height: 10vh;
+
+  .text-logo {
+    display: flex;
+    height: 100%;
+    align-items: center;
+    line-height: 1.9rem;
+
+    .logo {
+      height: 100%;
+      width: auto;
+    }
+
+    .logo-container {
+      display: flex;
+      flex-direction: column;
+
+      .requestum {
+        font-size: 2.5rem;
+      }
+    }
+  }
+}
